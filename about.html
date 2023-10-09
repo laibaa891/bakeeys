@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="java.min.js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<style>
+    *{
+      margin: 0px;
+      padding: 0px;  
+      box-sizing: border-box;
+      font-family: 'Times New Roman', Times, serif;
+      
+    }
+    .heading{
+        width: 90% ;
+        display: flex ;
+        justify-content: center ;
+        align-items: center ;
+        flex-direction: column;
+        margin: 20px auto ;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 20px;
+
+    }
+
+    .about{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap ;
+
+    }
+    .about-image{
+        flex: 1;
+        margin-right: 40px ;
+        overflow: hidden;
+
+    }
+    .about-image img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        transition: 1.5 ease;
+    }
+    .about-image:hover img{
+        transform: scale(1.5);
+
+     }
+    .about-con{
+        flex: 1;
+    }
+    .about-con p{
+        font-size: 23px;
+        margin-bottom: 15px;
+        color: chocolate;
+    }
+    .Readmore{
+        display: inline-block;
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 19px;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-top: 15px;
+        transition: 0.3s ease;
+        background-color: #783b31;
+          
+
+    }
+    .Readmore :hover{
+        background-color:#fff; 
+    }
+</style>
+<body style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(picture/778372_tea&cake_pattern-01.jpg) " class="p-3 m-0 border-0 bd-example m-0 border-0 " >
+
+      <nav class="navbar navbar-expand-lg bg-body-">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h1 style="color: #783b31;">BAKEEYS</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: chocolate;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html"style="color: chocolate;">Menu</a>
+              </li>
+          
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"style="color: chocolate;">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cakerecipes.html"style="color: chocolate;">Recipes</a>
+              </li>
+      
+             
+             
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"style="color: chocolate;">Contact</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+<section>
+    <div class="heading">
+    <h2 style="text-align: center; color:white;">About Us!</h2>
+    <h3 style="text-align: center; color: white;">Welcome To <span id="W_Name1">bakeeys</span></h3>
+    <div class="container">
+        <section  class="about">
+            <div class="about-image">
+                <img src="picture/front-view-delicious-cake-with-yellow-syrup-blue-surface.jpg" alt=""> 
+
+            </div>
+
+            <div class="about-con"> 
+               <p>Established in 1998, BAKEEYS revolutionized the concept of the bakery chain in Karachi by introducing a culture of innovation in product development and providing easy access with branches in every neighbourhood across the city. <br>
+
+                Over the last 25 years, we've expanded to become the largest bakery retail network with 26 outlets in the city and we're not done yet - in fact, we're growing every day! <br>
+                
+                Our mission is to give our customers the most authentic and artisanal bakery experience at the best price. <br>
+                
+                All our products - whether it's bread, biscuits, sandwiches, cakes or brownies - are freshly baked every day using the best natural ingredients and time-honoured processes. <br> We know our customers are deeply concerned about what goes into their food so we work hard to ensure that every batch is baked from scratch and is preservative and additive-free as far as possible. <br>
+                
+                Come on over and experience how we're baking it better.</p>
+             <a href="https://en.wikipedia.org/wiki/Bakery" class="Readmore"> Read More </a>
+
+            </div>
+
+            </section>
+    </div>
+
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</section>
+</body>
+</html>

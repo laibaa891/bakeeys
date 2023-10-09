@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+@media (min-width: 1200px) {
+    .header {
+      font-size: 80px;
+    }
+  }
+  
+  @media (max-width: 1199.98px) {
+    .header {
+      font-size: 30px;
+    }
+  }
+
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image:url(picture/paper-cupcake-baking-pans-white-concrete-background-ingredients-flour-butter-sugar-whisk-milk-copy-space-top-view-baking-concept-flat-lay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+
+
+
+.heading{
+    padding-top: 500px;
+    margin-left: 100px;
+
+}
+.heading h1{
+    font-size: 60px;
+}
+
+
+.heading h2{
+    font-size: 50px;
+    color: chocolate;
+    /* background-color: rgba(0,0,0,0.2); */
+}
+
+.second-Sec{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 100px 50px;
+}
+.second-Sec img{
+    background-attachment: fixed;
+}
+.second-Sec h2{
+    text-align: left;
+    font-size: 35px;
+    padding-bottom: 20px;
+} 
+.second-Sec p{
+    font-size: 18px;
+    color: rgba(0,0,0,0.6);
+    padding-bottom: 25px;
+}
+#Welcome{
+    text-align: left;
+    font-size: 35px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #c37a3e;
+    display: inline-block; 
+}
+.second-Sec a{
+    padding: 15px 30px;
+    background-color: #c37a3e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.second-Sec a:hover{
+    background-color: #7c4a21;
+}
+.second-sec{
+    margin: 30px 0;
+}
+
+.MenuSection{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 100px 0;
+}
+.MenuSection img{
+    height: 300px;
+    margin: 20px 0px;
+}
+.MenuSection h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #c37a3e;
+    display: inline-block;
+}
+.MenuSection p{
+    font-size: 18px;
+    color: rgba(0,0,0,0.6);
+    padding: 25px 0;   
+}
+.Bakery-menu{
+    margin-top: 30px;
+}
+
+.Bakery-menu h6{
+    padding: 10px 0px 5px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+#Weight{
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+    font-weight: lighter;
+}
+.Bakery-menu a{
+    float: inline-end;
+    margin-right: 30px;
+    padding: 5px 13px;
+    background-color: #c37a3e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.Bakery-menu a:hover{
+    background-color: #7c4a21;
+}
+
+
+
+
+.Feedback{
+    width: 100%;
+    height: auto;
+    padding: 50px 0 0 0;
+    text-align: center;
+    margin: 0;
+}
+.Feedback h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #c37a3e;
+    display: inline-block;
+} 
+.Feedback p{
+    font-size: 18px;
+    color: rgba(0,0,0,0.6);
+    padding-bottom: 25px;
+}
+.feedback-background{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(picture/front-view-sweet-chocolate-cake.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.center-heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.center-heading p{
+    font-size: 30px;
+    color: #fff;
+}
+.center-heading a{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    transition: 0.5s;
+    background-color: #c37a3e;
+}
+.center-heading a:hover{
+    background-color: #7c4a21;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0,0,0,0.1);
+    padding: 50px 0  0 0;
+    text-align: center;
+}
+.footer h3{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #c37a3e;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.footer p{
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+    font-weight: lighter;
+    padding: 0 10px;
+}
+.footer i{
+    padding: 10px;
+    font-size: 22px;
+    color: rgba(0,0,0,0.8);
+    transition: 0.6s;
+}
+.footer i:hover{
+    color: #7c4a21;
+}
+
+.Copyright h4{
+    font-size: 18px;
+    line-height: 100px;
+}
+#Name{
+    color: rgba(0,0,0,0.8);
+    font-weight: bold;
+}
+#last-logo{
+    font-size: 30px;
+    font-style: italic;
+    display: inline-block;
+    color: #c37a3e;
+    font-weight: bold;
+}
+
+
+
+  
+
+
+
+
+ .list{
+   text-align: center;
+ }
+ .list .item{
+    text-decoration: none;
+    color:  #c98d83;
+    margin: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+ 
+
